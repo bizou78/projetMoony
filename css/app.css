@@ -1,0 +1,576 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td,a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/**********************************************************/
+/********************   SECTION 1   ***********************/
+/**********************************************************/
+
+
+#section-1{
+    text-align: center;
+}
+div#section-1:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+}
+#videoMoony{
+    position: relative;
+
+}
+
+
+
+/**********************************************************/
+/********************   SECTION 2   ***********************/
+/**********************************************************/
+#section-2{
+    background-image: url("../media/images/wpbaseball.jpg");
+    background-size: cover;
+}
+div#section-2:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.intit {
+    font-family: 'Patua One', cursive;
+    font-size: 2.5em;
+    color: #be1943;
+    margin-bottom: 5%;
+}
+
+#demo1 {
+    font-family: 'Patua One', cursive;
+    font-size: 1.3em;
+    color: white;
+    text-align: justify;
+}
+
+#demo2 {
+    font-family: 'Patua One', cursive;
+    font-size: 1.3em;
+    color: white;
+    text-align: justify;
+}
+
+#demo3 {
+    font-family: 'Patua One', cursive;
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+}
+
+.btn-info {
+    background-color: #be1943;
+    border-color: #be1943;
+    color: white;
+}
+
+.btn-info.focus {
+    background-color: #be1943;
+    border-color: #be1943;
+}
+
+.btn-info:hover {
+    background-color: #be1943;
+}
+
+.img-responsive {
+    border: 5px solid white;
+    box-shadow: 1px 1px 12px #555;
+}
+
+h1.title1-Section2{
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    color: white;
+}
+h4.title2-Section2{
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.titre-section2{
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+/**********************************************************/
+/********************   SECTION 3   ***********************/
+/**********************************************************/
+#section-3{
+    background-image: url("../media/images/kitchen.jpg");
+    background-size: cover;
+    text-align: center;
+}
+div#section-3:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.titre-section3 {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+
+h1.titlebs {
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+h4.titletwo {
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+
+.modal-header {
+    background: #BE1943;
+
+}
+
+
+.modal-title {
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+    color: black;
+}
+
+
+.modal-description {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1em;
+    font-style: italic;
+}
+
+
+button.btn-info {
+    background-color: #BE1943;
+    border-color: #BE1943;
+}
+
+button.btn-info:hover {
+    background-color: #CC1A48;
+    border-color: #CC1A48;
+}
+
+.btn-info {
+    background-color: #BE1943;
+    margin-top:10px;
+}
+
+.modal-dialog{
+    margin-top:100px;
+}
+.modal{
+    text-align:center;
+}
+
+/**********************************************************/
+/********************   SECTION 4   ***********************/
+/**********************************************************/
+#section-4{
+    background-image: url("../media/images/menu.jpg");
+    background-size: cover;
+}
+div#section-4:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.titre-section4 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.media-object {
+    border: 5px solid white;
+}
+
+.media{
+    margin: 3px;
+}
+.media-body{
+    margin-left: 0;
+}
+.media-left{
+    padding: 0;
+}
+
+.media-heading {
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+    color: #BE1943;
+}
+
+.price {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1em;
+    color: white;
+    margin-top: -33px;
+}
+
+.descript {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+.english {
+    font-family: 'Questrial', sans-serif;
+    font-style: italic;
+    font-size: 0.95em;
+    color: #BE1943;
+
+}
+.titre1Slide1 {
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    color: white;
+}
+.titre2Slide2{
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+
+/**********************************************************/
+/********************   SECTION 5   ***********************/
+/**********************************************************/
+#section-5{
+    background-image: url("../media/images/ouvousvoulez.jpg");
+    background-size: cover;
+}
+
+div#section-5:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+.imgsized {
+    max-width: 350px;
+    height: 350px;
+    margin: auto;
+}
+
+.row {
+    text-align: center;
+}
+
+.row_com {
+
+    text-align: center;
+}
+
+
+p#partenaires{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-size: 20px;
+    opacity:1;
+}
+.titre-section6{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#code-promo{
+    margin-top: 20px;
+    font-size: 25px;
+    border:2px;
+    background-color: #be1943;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight:bold;
+
+}
+
+/**********************************************************/
+/********************   SECTION 6   ***********************/
+/**********************************************************/
+#section-6{
+    background-image: url("../media/images/contact2.jpg");
+    background-size: cover;
+}
+
+div#section-6:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+}
+@font-face {
+    font-family: 'Patua One', 'cursive', 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Patua One', 'cursive';
+    color: white;
+}
+#titre-section-6{
+    font-family:'Patua One', 'cursive';
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.container {
+    text-align: center;
+    height: 60%;
+    position: relative;
+}
+
+span.tel {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+iframe {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+/* Send Button Styles */
+
+.form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding: 5px;
+    color:#fff;
+    background:#8BC3A3;
+    border:none;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+
+.form-btn:hover{
+    background:#111;
+    color: white;
+    border:none;
+}
+
+
+/**********************************************************/
+/********************     NAVBAR    ***********************/
+/**********************************************************/
+.toggle-menu{
+    position: fixed;
+    padding: 15px 20px 15px 15px;
+    top:0;
+    margin-left: 20px;
+    color: #be1943;
+    cursor: pointer;
+    background-color: black;
+    z-index:100000000;
+    font-size: 2.5em;
+    opacity: 0;
+}
+.sidebar_menu{
+    position: fixed;
+    width: 250px;
+    /*background-color: rgba(17, 17, 17, 0.9);*/
+    background-color: black;
+    top:0;
+    margin-left: 0;
+    margin-top: 70px;
+    margin-bottom: auto;
+    overflow: hidden;
+    max-height: 100vh;
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+    z-index:100000000;
+}
+.fa-times{
+    right: 10px;
+    top: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.fa-times:hover{
+    opacity: 1;
+}
+.center_box{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boxed_item{
+    font-family: 'Patua One', 'cursive';
+    font-weight: 200;
+    padding: 10px 20px;
+    display: inline-block;
+    border: solid 2px white;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #be1943;
+    text-align: center;
+    margin-top: 70px;
+}
+.logo_bold{
+    font-weight: 800;
+}
+.logo_title{
+    color: #be1943;
+    font-family: 'Open Sans';
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.navigation_selection{
+    margin: 20px 0;
+    display: block;
+    width: 200px;
+    margin-left: 25px;
+
+}
+.navigation_item{
+    font-weight: 200;
+    font-family: 'Open Sans';
+    color: #be1943;
+    padding: 12px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #be1943;
+    border-bottom: solid 1px #D8D8D8;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.navigation_item:hover{
+    opacity:0.8;
+    font-size: 23px;
+    font-weight: 500;
+}
+.link-menu{
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none; !important;
+    color: #be1943; !important;
+}
+a{
+    text-decoration: none; !important;
+}
+.hide_menu{
+    margin-left: -250px;
+}
+
+.opacity_one{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+.header{
+    position: fixed;
+    height: 70px;
+    display: block;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: black;
+    text-align: center;
+}
+a.link-menu{
+    text-decoration: none;
+    color: #be1943;
+}
+.texte-header{
+    color: #be1943;
+    margin-top: -50px;
+    margin-right: -200px;
+}
+.logoMoony{
+    width:150px;
+    height:auto;
+    margin-top: -20px;
+    z-index: auto;
+}
+
+@media screen and (max-width: 699px) and (min-width: 359px) {
+    .text-center{
+        text-align: center;
+        width: 100%;
+    }
+    #titre-section-6{
+        margin-top: 5px;
+    }
+    .titre-section4{
+        margin-top: 10px;
+    }
+    .imgsized {
+        max-width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    .img-thumbnail{
+        max-width:200px;
+        height: 200px;
+        margin:auto;
+        margin-bottom: 5px;
+    }
+    .titre-section3 {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    .text-center{
+        text-align: center;
+        width: 100%;
+    }
+    #titre-section-6{
+        margin-top: -20px;
+    }
+}
+@media screen and (min-width: 1001px) {
+
+}
+@media screen and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+
+}
